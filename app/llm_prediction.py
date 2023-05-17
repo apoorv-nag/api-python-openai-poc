@@ -2,9 +2,10 @@ from langchain.llms import OpenAI
 
 from dotenv import load_dotenv
 
+from extensions import llm
+
 load_dotenv()
 
-llm = OpenAI(temperature=0.9)
 
 text = "Tell a good project on AI"
 
